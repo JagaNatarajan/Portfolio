@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <title>Portfolio</title>
+  <link href="./style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a063546206.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <p>Web developer</p>
+      <h1>I'm <span style="color: darkkhaki; font-style: italic;">Jagadeeswari</span></h1>
+      <h3>Why into coding? <span class="para"></span></h3>
+    </div>
+  </div>
+  <br>
+  <div class="about">
+    <div class="details">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./laaap.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p style="color: whitesmoke;">An aspiring web developer, highly creative thinker
+            and an ambitious and self-motivated individual to get
+            an opportunity where I can make the best of my
+            potential and contribute to the organization’s growth. </p>
+          
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Frontend</span><br>Good knowledge in React, JavaScript, HTML/CSS and bootstrap.</li>
+              <li><span>Backend</span><br>Superior in Node.js and MongoDb.</li>
+              <li><span>Communication</span><br>Excellent communication in both written and verbal.</li>
+              <li><span>Typewriting</span><br>Completed english typewriting in both senior and junior with distinction.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Work Experience(Feb'22-Sep'22)</span><br>IT Recruiter at Infyjob Technology Service Private Limited</li>
+              <li><span>Course(Dec'22-July'23)</span><br>Completed 6month course in TimesPro</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Post-graduation(2021-2023)</span><br>Pursuing MBA(HRM) in University of Madras</li>
+              <li><span>Under-graduation(2018-2021)</span><br>Completed BSc.Computer Science in Vidhya Sagar Women's College</li>
+              </ul>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----  services------------->
+  <div class="services">
+    <div class="container">
+      <div class="sub-title">My Services</div>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code fa-beat"></i>
+          <h2>Portfolio</h2>
+          <p>Build my profile using HTML/CSS and JavaScript.</p>
+          <a href="https://github.com/JagaNatarajan/Portfolio">Github Link</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-react fa-beat"></i>
+          <h2>React project</h2>
+          <p>Designed a E-commerce website using React.</p>
+          <a href="#">Github Link</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code fa-beat"></i>
+          <h2>CRUD Application</h2>
+          <p>Created a basic CRUD operation using React with MongoDb and Node.js</p>
+          <a href="https://github.com/JagaNatarajan/CRUD_Operation">Github Link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---work---------->
+  <div class="portfolio">
+    <div class="container">
+      <div class="sub-title">My Work</div>
+      <div class="work-list">
+        <div class="work">
+          <img src="./r1.png">
+          <div class="layer">
+            <h3>Recruitment</h3>
+            <p>Sourced and screened the profiles through job
+              portals.</p>
+              <i class="fa-solid fa-magnifying-glass-plus fa-beat-fade"></i>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./rr2.jpg">
+          <div class="layer">
+            <h3>Verifing candidate</h3>
+            <p>Verified all the required details from the candidate.</p>
+            <i class="fa-solid fa-check-to-slot fa-beat-fade"></i>
+          </div>
+        </div>
+        <div class="work">
+         <img src="./rr3.png">
+         <div class="layer">
+         <h3>Arranged interview slot</h3>
+         <p>Assessed and arranged the interview slots to the
+          candidates.</p>
+         <i class="fa-solid fa-envelopes-bulk fa-beat-fade"></i>
+      </div>
+    </div>
+     </div>
+   <a href="#" class="btn">See more</a>
+   <!----------contact----->
+   <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>njagadeeswaribsc@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9600814829</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/jagadeeswari-natarajan-36a001251/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/JagaNatarajan"><i class="fa-brands fa-github"></i></a>
+             </div>
+             <a href="./JagaNatarajan profile.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows='6' placeholder="Your Message" required></textarea>
+             <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="copyright">
+    <p>Copyright @ Jaga. Made with by Jaga</p>
+   </div>
+   <script src="./main.js"></script>
+</body>
+
+</html>
